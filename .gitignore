@@ -1,0 +1,59 @@
+# Virtual environment
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+
+# Editor / agent config
+.opencode/
+.vscode/
+.idea/
+
+# Research papers (third-party copyrighted, not for repo)
+Research papers/
+
+# Large data files - raw data too big for git
+processed_data/df.csv
+processed_data/1M_ATM.csv
+processed_data/1M_OTM.csv
+processed_data/iv1m_k_pc.csv
+processed_data/backbone_10k_subplots.png
+processed_data/backbone_20k_subplots.png
+
+# Raw downloaded BTC option trade data (regenerate with BTC/btc_data_download.py)
+BTC/data/
+data/
+
+# Internal handoff / comparison docs (not for public repo)
+BUILD_HANDOFF.md
+deribit_data_sources_comparison.md
+
+# Keep small pickle fits + figures
+!processed_data/fits_regime_mse.pkl
+
+# LaTeX build artifacts (compile The paper/Uncertain Volatility Backbone.tex locally)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# OS files
+.DS_Store
+Thumbs.db
