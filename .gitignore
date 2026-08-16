@@ -27,6 +27,12 @@ processed_data/iv1m_k_pc.csv
 processed_data/backbone_10k_subplots.png
 processed_data/backbone_20k_subplots.png
 
+# Fit-summary CSVs (regenerate by running notebooks)
+processed_data/*.csv
+
+# Saved model fits (regenerate by running notebooks)
+*.pkl
+
 # Raw downloaded BTC option trade data (regenerate with BTC/btc_data_download.py)
 BTC/data/
 data/
@@ -34,9 +40,6 @@ data/
 # Internal handoff / comparison docs (not for public repo)
 BUILD_HANDOFF.md
 deribit_data_sources_comparison.md
-
-# Keep small pickle fits + figures
-!processed_data/fits_regime_mse.pkl
 
 # LaTeX build artifacts (compile The paper/Uncertain Volatility Backbone.tex locally)
 *.aux
